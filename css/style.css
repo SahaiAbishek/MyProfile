@@ -4,6 +4,27 @@
     font-family: sans-serif;
 }
 
+header{
+    background: #3b3939;
+    height: 10%;
+    text-align: left;
+}
+
+footer{
+    background: #3b3939;
+    height: 5%;
+}
+
+section{
+    height: 85%;
+}
+
+img {
+    display: block;
+    /* margin-left: auto;
+    margin-right: auto; */
+  }
+
 .container{
     width: 100%;
     min-height: 100%;
@@ -26,9 +47,36 @@ a{
     color: #fffdfd;
 }
 
+.indexContainer{
+    display: flex;
+    color: #fffdfd;
+    margin: auto;
+    text-align: left;
+    padding: 80px;
+}
+
+.item{
+    width:30%;
+    text-align:left;
+    display:block;
+    background-color: transparent;
+    border: 1px solid transparent;
+    margin-right: 10px;
+    margin-bottom: 1px;
+    float:left;
+  }
+
+/* .indexContainer :first-child {
+    text-align: left;
+    display: block;
+    float: left;
+    width: 40%;
+  } */
+
 .commonText{
     margin-left: 80px;
     color: #fffdfd;
+    align-content: center;
 }
 
 .commonText ul{
@@ -63,6 +111,12 @@ a{
     margin-top: 10px;
     margin-bottom: 10px;
     margin-left: 30px;
+}
+
+.nameText{
+    padding: 5px;
+    font-size: large;
+    font-style: oblique;
 }
 
 h2{
